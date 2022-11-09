@@ -1,0 +1,16 @@
+name: "Suggest creature"
+description: "Suggest a creature to be added to Among The Brutes"
+labels: [ "enhancement" ]
+body:
+    -   type: input
+        attributes:
+            label: "Creature you would like to be added"
+            description: "Name a mythological beast you would like us to add to Among The Brutes."
+        validations:
+            required: true
+    -   type: textarea
+        attributes:
+            label: "Specific details to add (if possible)"
+            description: "Name details regarding the creature (e.g. behaviour, items, etc.)."
+        validations:
+            required: false
